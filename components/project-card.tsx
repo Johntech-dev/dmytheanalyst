@@ -2,6 +2,7 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 interface ProjectCardProps {
   title: string
@@ -9,9 +10,10 @@ interface ProjectCardProps {
   category: string
   tools: string[]
   imagePath: string
+  link?: string
 }
 
-export default function ProjectCard({ title, description, category, tools, imagePath }: ProjectCardProps) {
+export default function ProjectCard({ title, description, category, tools, imagePath, link }: ProjectCardProps) {
   return (
     <Card className="overflow-hidden transition-all duration-300 hover:shadow-lg border-amber-100 hover:border-amber-300 group">
       <div className="h-48 overflow-hidden relative">
@@ -35,8 +37,18 @@ export default function ProjectCard({ title, description, category, tools, image
         </div>
       </CardContent>
       <CardFooter className="border-t border-gray-100 pt-4">
-        <Button variant="ghost" className="text-purple-600 hover:text-purple-700 hover:bg-purple-50 ml-auto">
-          View Details <ExternalLink className="ml-2 h-4 w-4" />
+        <Button 
+          variant="ghost" 
+          className="text-purple-600 hover:text-purple-700 hover:bg-purple-50 ml-auto"
+          asChild={!!link}
+        >
+          {link ? (
+            <Link href={link} target="_blank" rel="noopener noreferrer">
+              View Details <ExternalLink className="ml-2 h-4 w-4" />
+            </Link>
+          ) : (
+            <span>View Details <ExternalLink className="ml-2 h-4 w-4" /></span>
+          )}
         </Button>
       </CardFooter>
     </Card>

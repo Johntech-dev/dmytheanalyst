@@ -181,6 +181,7 @@ export default function Home() {
               category="Education"
               tools={["Power BI", "Google Forms", "Power Query"]}
               imagePath="/images/projects/university-research.jpeg"
+              link="https://www.blogger.com/blog/posts/4084584427104345231"
             />
             <ProjectCard
               title="Customer Churn Analysis"
@@ -188,6 +189,7 @@ export default function Home() {
               category="Business Intelligence"
               tools={["Python", "SQL", "Tableau"]}
               imagePath="/images/projects/customer-churn.jpeg"
+              link="https://www.blogger.com/blog/posts/4084584427104345231"
             />
             <ProjectCard
               title="Financial Data Analysis"
@@ -195,6 +197,7 @@ export default function Home() {
               category="Finance"
               tools={["Excel", "Python", "Matplotlib"]}
               imagePath="/images/projects/financial-analysis.jpeg"
+              link="https://medium.com/@olatunjiademola015/financial-data-analysis-uncovering-trends-strategic-investment-opportunities-by-demola-6be953fe2ee7"
             />
             <ProjectCard
               title="Retail Stock Inventory Analysis"
@@ -202,6 +205,7 @@ export default function Home() {
               category="Retail"
               tools={["Excel", "Power BI", "SQL"]}
               imagePath="/retail.jpg"
+              link="https://www.blogger.com/blog/posts/4084584427104345231"
             />
             <ProjectCard
               title="Marketing Campaign Analysis"
@@ -209,6 +213,7 @@ export default function Home() {
               category="Marketing"
               tools={["Google Analytics", "Excel", "Tableau"]}
               imagePath="/marketing.jpg"
+              link="https://medium.com/@olatunjiademola015/optimizing-digital-ad-spend-a-deep-dive-into-fresh-carts-marketing-campaign-roi-2212d5948481"
             />
             <ProjectCard
               title="Drug Abuse Trend Analysis"
@@ -216,6 +221,7 @@ export default function Home() {
               category="Healthcare"
               tools={["Python", "SPSS", "Power BI"]}
               imagePath="/drug.jpg"
+              link="https://www.blogger.com/blog/posts/4084584427104345231"
             />
           </div>
 
