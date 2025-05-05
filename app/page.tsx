@@ -64,9 +64,10 @@ export default function Home() {
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-amber-700 via-purple-600 to-amber-500 text-transparent bg-clip-text">
               OLATUNJI ADEMOLA
             </h1>
-            <p className="text-xl md:text-2xl text-gray-700 mb-8">
-              Passionate Data & BI Analyst dedicated to transforming data into business insights that drive growth and
-              beat competition.
+            <p className="text-xl md:text-[20px] text-gray-700 mb-8">
+            Data & BI Analyst | Architect of Insight-Driven Transformation
+
+Translating complex data into strategic clarity that fuels measurable outcomes across industries. Specializing in precision analytics that empower smarter decisions, optimize operations, and redefine competitive advantage.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-amber-600 hover:bg-amber-700 text-white" size="lg" asChild>
@@ -189,7 +190,7 @@ export default function Home() {
               category="Business Intelligence"
               tools={["Python", "SQL", "Tableau"]}
               imagePath="/images/projects/customer-churn.jpeg"
-              link="https://www.blogger.com/blog/posts/4084584427104345231"
+              link="https://medium.com/@olatunjiademola015/predicting-customer-churn-how-i-identified-at-risk-customers-and-boosted-retention-by-olatunji-ae4cea2285b7"
             />
             <ProjectCard
               title="Financial Data Analysis"
@@ -205,7 +206,7 @@ export default function Home() {
               category="Retail"
               tools={["Excel", "Power BI", "SQL"]}
               imagePath="/retail.jpg"
-              link="https://www.blogger.com/blog/posts/4084584427104345231"
+              link="https://medium.com/@olatunjiademola015/retail-stock-inventory-analysis-how-i-slashed-stockouts-by-30-using-data-9181d7947fa0"
             />
             <ProjectCard
               title="Marketing Campaign Analysis"
@@ -221,7 +222,7 @@ export default function Home() {
               category="Healthcare"
               tools={["Python", "SPSS", "Power BI"]}
               imagePath="/drug.jpg"
-              link="https://www.blogger.com/blog/posts/4084584427104345231"
+              link="https://medium.com/@olatunjiademola015/drug-abuse-trend-analysis-7409f01cb0b8"
             />
           </div>
 
